@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+ 
+ <mapper namespace="com.hosoo.mapper.BoardMapper">
+ 	
+	<insert id="insert">
+		INSERT INTO TBL_BOARD (WRITER, SUBJECT, CONTENT) 
+		VALUES (#{writer}, #{subject}, #{content})
+	</insert>
+	
+	<update id="update">
+		UPDATE TBL_BOARD 
+		SET WRITER = #{writer}, SUBJECT = #{subject}, CONTENT = #{content}
+		WHERE BNO = #{bno}
+	</update>
+	
+	<delete id="delete">
+		DELETE FROM TBL_BOARD 
+		WHERE BNO = #{bno}
+	</delete>
+ 	
+ </mapper>

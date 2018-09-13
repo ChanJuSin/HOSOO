@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+#main {height: 100vh; background: linear-gradient( to bottom, #005607, #ce0000);}
+#main .main {padding-top: 60px; margin: 0 auto; width: 1800px; color: #fff; text-align: center;}
+#main .main .dol {margin: 0 auto;}
+#main .main p{margin-top: 30px; margin-bottom: 50px; font-size: 30px;}
+#main .main .button{position: relative; }
+#main .main .button::after {content:''; display: none; position: absolute; top:0; left: 743px; width: 312px; height: 72px; background: url(../images/404/HOSOO_rblue.png);}
+#main .main .button:hover:after{display: inline;}
+

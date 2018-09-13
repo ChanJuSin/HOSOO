@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  
+ <mapper namespace="com.hosoo.mapper.UserMapper">
+ 
+ 	<insert id="singUp">
+ 		INSERT INTO TBL_USER (name, email, password, age) 
+ 		VALUES (#{name}, #{email}, #{passwd}, #{age})
+ 	</insert>
+ 	
+ 	<select id="checkUser" resultType="String">
+ 		SELECT email FROM tbl_user 
+ 		WHERE email = #{email}
+ 	</select>
+ 	
+ 	<update id="modifyUser">
+ 		UPDATE TBL_USER 
+ 		SET NAME = #{name}, PASSWORD = #{password}, AGE = #{age}, MODIFYDATE = now()
+ 		WHERE EMAIL = #{email}
+ 	</update>
+ 	
+ 	<delete id="deleteUser">
+ 		DELETE FROM TBL_USER 
+ 		WHERE EMAIL = #{email} AND PASSWORD = #{password}
+ 	</delete>
+ 	
+ 	<update id="userCheckUpdate">
+ 		UPDATE TBL_USER
+ 		SET USERCHECK = 'Y', CODE = '00000000'
+ 		WHERE EMAIL = #{email}
+ 	</update>
+ 
+ </mapper>

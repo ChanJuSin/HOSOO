@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+header {position: fixed; width: 100%; height:110px; background-color:rgba(252, 252, 252, 0); z-index: 1; } 
+header .center{overflow: hidden; margin: 0 auto; width: 95%;}
+header .center h1 {float: left; padding: 30px 0;}
+header .center .h_menu {float: right; padding: 40px 0; color:#c2c3c5;}
+header .center .h_menu a{float:left; padding: 0 30px; text-align: center; font-size:16px; color:#999;}
+header .center .h_menu a.hell {color:#fff;}
+header .center .h_menu a.last {padding-right:80px;}
+header .center .h_menu a:hover {color: #fff;}
+header .center .h_menu button { padding: 10px; margin:-7px 0 ; background-color: #323232; opacity: 0.85;}
+
+/* header {position: fixed; height:100px; width: 100%; background-color:rgba(252, 252, 252, 0.98); z-index: 1; } 
+header .center{overflow: hidden; width: 1800px; margin: 0 auto;}
+header .center h1 {float: left; padding: 30px 0;}
+header .center .h_menu {float: right; padding: 38px 0; color:#333;}
+header .center .h_menu a{float:left; padding: 0 30px; text-align: center; font-size:16px; color:#999;}
+header .center .h_menu a.last {padding-right:80px;}
+header .center .h_menu a:hover {color: #111;}
+header .center .h_menu button {opacity: 0.85; padding: 10px; margin:-7px 0 ;} */
+
+#header {margin-bottom: 80px; width:1920px; height:530px; background: url(../images/bg/sub_Profile_bg.jpg) no-repeat;}
+#header h2 {padding-top: 12%; text-align: center; font-size: 70px; color: #fff;}
+
+#content {margin: 0 auto; width: 1180px; margin-bottom: 120px; text-align: center;}
+#content h3{margin:30px 0; font-size:60px; color:#333;}
+#content a{margin-right: 30px; color: #777; font-size: 18px;}
+#content a:last-child{margin: 0;}
+#content .on{text-decoration: underline; color: #111 ;}
+
+#content ul {margin-top: 60px;border-top: 1px solid #888; text-align: left;}
+#content ul li {overflow: hidden; position: relative; padding-left: 50px; height: 105px; border-bottom: 1px solid #d9d9d9; transition-duration: 0.3s;}
+#content ul li:before {content:''; position: absolute; top:45px; left: 0; width: 20px; height: 20px; background: url(../images/icon/Q.png) no-repeat; }
+#content ul li h4{margin-top: 40px;font-size: 23px; color: #666; }
+#content ul li p{margin-bottom: 5px; font-size: 15px ; color: #555; transition-duration: 0.3s;}
+#content ul li p:nth-child(2) {margin-top:40px;}
+#content ul li p:last-child{margin-bottom: 0;}
+#content ul li:hover h4 {color: #3d91ad;}
+#content ul li:hover{height: 230px;}
+
+#content .p {margin-top: 30px; text-align: right; color: #888;} 
+
+footer {background-color:#111;}
+footer .footer {margin:0 auto; width:345px; padding:49px 0 79px;}
+footer .footer p {margin-bottom: 30px; color: #4d4d4d;}
+footer .footer ul {overflow:hidden; display:block; margin:0 auto; width:170px;}
+footer .footer ul li {float:left; margin-right:30px;}
+footer .footer ul li:last-child {margin:0;}

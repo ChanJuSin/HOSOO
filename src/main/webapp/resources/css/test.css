@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+#content {}
+#content .content_top {background: url(../images/bg/hoo.png);}
+#content .content_top .content_bak {background-color: rgba(17,17,17,0.8);}
+#content .content_top .content_bak .content_width {overflow: hidden; margin:0 auto; width:1080px; padding-top:100px; }
+#content .content_top .content_bak .content_width .txt {text-align:left; float:left;}
+#content .content_top .content_bak .content_width .txt h2 {font-size:70px; color:#fff;}
+#content .content_top .content_bak .content_width .txt h2.Ye {color:#ffaf40;}
+#content .content_top .content_bak .content_width .txt span {color:#bfbfbf; font-size:25px;}
+#content .content_top .content_bak .content_width .txt p {margin-top:40px; color:#eaeaea; font-size:18px; }
+#content .content_top .content_bak .content_width img {float: right;}
+#content .content {margin:0 auto; width:1190px; text-align:center;}
+#content .content h3 {margin-top: 30px; margin-bottom:40px; font-size:60px; color:#111; }
+#content .content .content_to {}
+#content .content .content_to ul {overflow:hidden;}
+#content .content .content_to ul li {position: relative; float:left; margin-bottom: 40px; width: 575px; height: 70px; font-size: 18px; text-align:left; font-weight: 600;}
+#content .content .content_to ul li:nth-child(2n-1) {margin-right: 30px;}
+#content .content .content_to ul li:before {content:''; position: absolute; top: 42px; left: 0; width: 575px; height: 5px; background: #eee;}
+
+#content .content .content_to ul li.st {color: #aaa;}
+#content .content .content_to ul li.st:after  {content:'XD'; position: absolute; top: 50px; right: 0; width: 25px; height: 20px;}
+
+#content .content .content_to ul .p10:after {content:''; position: absolute; top: 42px; left: 0; width: 57px; height: 5px; background: #ffaf40;}
+#content .content .content_to ul .p10 .circle {position: absolute; top: 38px; left: 55px; width: 13px; height: 13px; background-color: #ffaf40; border-radius: 50%;}
+#content .content .content_to ul .p10 .percent{position: absolute; top: 55px; left: 50px;}
+
+#content .content .content_to ul .p20:after {content:''; position: absolute; top: 42px; left: 0; width: 115px; height: 5px; background: #ffaf40;}
+#content .content .content_to ul .p20 .circle {position: absolute; top: 38px; left: 113px; width: 13px; height: 13px; background-color: #ffaf40; border-radius: 50%;}
+#content .content .content_to ul .p20 .percent{position: absolute; top: 55px; left: 108px;}
+
+#content .content .content_to ul .p30:after {content:''; position: absolute; top: 42px; left: 0; width: 172px; height: 5px; background: #ffaf40;}
+#content .content .content_to ul .p30 .circle {position: absolute; top: 38px; left: 170px; width: 13px; height: 13px; background-color: #ffaf40; border-radius: 50%;}
+#content .content .content_to ul .p30 .percent{position: absolute; top: 55px; left: 165px;}
+
+#content .content .content_to ul .p40:after {content:''; position: absolute; top: 42px; left: 0; width: 230px; height: 5px; background: #ffaf40;}
+#content .content .content_to ul .p40 .circle {position: absolute; top: 38px; left: 228px; width: 13px; height: 13px; background-color: #ffaf40; border-radius: 50%;}
+#content .content .content_to ul .p40 .percent{position: absolute; top: 55px; left: 223px;}
+
+#content .content .content_to ul .p50:after {content:''; position: absolute; top: 42px; left: 0; width: 287px; height: 5px; background: #ffaf40;}
+#content .content .content_to ul .p50 .circle {position: absolute; top: 38px; left: 285px; width: 13px; height: 13px; background-color: #ffaf40; border-radius: 50%;}
+#content .content .content_to ul .p50 .percent{position: absolute; top: 55px; left: 280px;}
+
+#content .content .content_to ul .p60:after {content:''; position: absolute; top: 42px; left: 0; width: 345px; height: 5px; background: #ffaf40;}
+#content .content .content_to ul .p60 .circle {position: absolute; top: 38px; left: 343px; width: 13px; height: 13px; background-color: #ffaf40; border-radius: 50%;}
+#content .content .content_to ul .p60 .percent{position: absolute; top: 55px; left: 338px;}
+
+#content .content .content_to ul .p70:after {content:''; position: absolute; top: 42px; left: 0; width: 402px; height: 5px; background: #ffaf40;}
+#content .content .content_to ul .p70 .circle {position: absolute; top: 38px; left: 400px; width: 13px; height: 13px; background-color: #ffaf40; border-radius: 50%;}
+#content .content .content_to ul .p70 .percent{position: absolute; top: 55px; left: 395px;}
+
+#content .content .content_to ul .p80:after {content:''; position: absolute; top: 42px; left: 0; width: 460px; height: 5px; background: #ffaf40;}
+#content .content .content_to ul .p80 .circle {position: absolute; top: 38px; left: 458px; width: 13px; height: 13px; background-color: #ffaf40; border-radius: 50%;}
+#content .content .content_to ul .p80 .percent{position: absolute; top: 55px; left: 453px;}
+
+#content .content .content_to ul .p90:after {content:''; position: absolute; top: 42px; left: 0; width: 517px; height: 5px; background: #ffaf40;}
+#content .content .content_to ul .p90 .circle {position: absolute; top: 38px; left: 515px; width: 13px; height: 13px; background-color: #ffaf40; border-radius: 50%;}
+#content .content .content_to ul .p90 .percent{position: absolute; top: 55px; left: 510px;}
+
+#content .content .content_to ul .p100:after {content:''; position: absolute; top: 42px; left: 0; width: 575px; height: 5px; background: #ffaf40;}
+#content .content .content_to ul .p100 .circle {position: absolute; top: 38px; left: 572px; width: 13px; height: 13px; background-color: #ffaf40; border-radius: 50%;}
+#content .content .content_to ul .p100 .percent{position: absolute; top: 55px; left: 570px;}
+
+#content .content .content_bo {margin-bottom:120px;}
+#content .content .content_bo a {display: block;}
+#content .content .content_bo ul {overflow:hidden;}
+#content .content .content_bo ul li {overflow: hidden; float:left; margin-right:40px; font-size:25px; }
+#content .content .content_bo ul li a {color:#111;}
+#content .content .content_bo ul li a:hover {color:#e68600;}
+#content .content .content_bo ul li:last-child {margin-right:0px;}
+#content .content .content_bo ul li .img {overflow: hidden; margin-bottom: 25px; width: 367px; height: 250px;}
+#content .content .content_bo ul li img {display:block; transition-duration: 0.5s; -webkit-filter: grayscale(100%);}
+#content .content .content_bo ul li img:hover {transform:scale(1.1); -webkit-filter: grayscale(0%);}
+#content .content .content_bo ul li span {font-size:15px; font-color:#555;}
+
+#content .cont {background: url(../images/bg/contact.png);}
+#content .cont .cont_bak {background-color: rgba(17,17,17,0.89);}
+#content .cont .cont_bak .cont_width {margin:0 auto; width:970px; overflow:hidden;}
+#content .cont .cont_bak .cont_width h4 {color:#fff; font-size:60px; text-align:center; margin-bottom:40px; padding-top: 60px;}
+#content .cont .cont_bak .cont_width .right {float:right; color:#fff; text-align:center;}
+#content .cont .cont_bak .cont_width .left {float:left; color:#bfbfbf; overflow:hidden;}
+#content .cont .cont_bak .cont_width .right h5 {font-size:22px; margin-bottom:15px;}
+#content .cont .cont_bak .cont_width .right p {font-size:18px; margin-bottom:60px;}
+#content .cont .cont_bak .cont_width .left p {font-size:18px; margin-bottom:40px;}
+#content .cont .cont_bak .cont_width .left button {color:#111; background-color:#ffaf40; width:166px; height:45px; margin-top:25px; float:right;}
